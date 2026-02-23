@@ -6,7 +6,7 @@ description: |
   Handles SDK implementation, examples, and tests.
 model: $system.code
 shell: true
-cwd: /home/shaun/source/mcp-work/working/repos/typescript-sdk
+cwd: ./working/repos/typescript-sdk
 agents: [ripgrep_search]
 function_tools:
   - typescript_sdk_multilspy_tools.py:lsp_hover

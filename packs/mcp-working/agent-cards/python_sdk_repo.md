@@ -6,7 +6,7 @@ description: |
   Handles SDK implementation, examples, and tests.
 model: $system.code
 shell: true
-cwd: /home/shaun/source/mcp-work/working/repos/python-sdk
+cwd: ./working/repos/python-sdk
 agents: [ripgrep_search]
 function_tools:
   - python_sdk_multilspy_tools.py:lsp_hover

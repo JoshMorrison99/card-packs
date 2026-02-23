@@ -18,9 +18,15 @@ from multilspy.multilspy_config import Language, MultilspyConfig
 from multilspy.multilspy_exceptions import MultilspyException
 from multilspy.multilspy_logger import MultilspyLogger
 
-# CUSTOMIZE: Adjust parents[] to match card location depth from repo root.
-# Example: if card is at .fast-agent/agent-cards/dev.md, use parents[2]
-_REPO_ROOT = Path("/home/shaun/source/mcp-work/working/repos/typescript-sdk").resolve()
+# Resolve workspace root by searching upward for working/repos.
+def _resolve_workspace_root() -> Path:
+    for parent in Path(__file__).resolve().parents:
+        if (parent / "working" / "repos").exists():
+            return parent
+    return Path(__file__).resolve().parents[2]
+
+
+_REPO_ROOT = (_resolve_workspace_root() / "working" / "repos" / "typescript-sdk").resolve()
 
 # CUSTOMIZE: Set allowed directories for LSP queries (security/scope restriction).
 # Example: {"src", "lib"} or {"."} for entire repo

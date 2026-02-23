@@ -3,7 +3,7 @@ name: mcp
 default: true
 # model: sonnet
 shell: true
-cwd: /home/shaun/source/mcp-work/working
+cwd: ./working
 agents: [spec_repo, wg_repo, python_sdk_repo, typescript_sdk_repo, ripgrep_search]
 ---
 

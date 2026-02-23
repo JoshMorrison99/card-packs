@@ -6,7 +6,7 @@ description: |
   Handles spec, SEP changes, docs updates, and schema alignment.
 # model: sonnet
 shell: true
-cwd: /home/shaun/source/mcp-work/working/repos/modelcontextprotocol
+cwd: ./working/repos/modelcontextprotocol
 agents: [ripgrep_search]
 ---
 

@@ -6,7 +6,7 @@ description: |
   Handles draft SEP exploration and proposal text evolution.
 # model: sonnet
 shell: true
-cwd: /home/shaun/source/mcp-work/working/repos/transports-wg
+cwd: ./working/repos/transports-wg
 agents: [ripgrep_search]
 ---
 
