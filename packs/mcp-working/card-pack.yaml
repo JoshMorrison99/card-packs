@@ -15,3 +15,4 @@ install:
     - agent-cards/python_sdk_multilspy_tools.py
     - agent-cards/typescript_sdk_multilspy_tools.py
     - hooks/fix_ripgrep_tool_calls.py
+
