@@ -4,7 +4,7 @@
       "name": "smart",
       "description": "Simple smart test card pack",
       "kind": "card",
-      "repo_url": "https://github.com/fast-agent-ai/card-packs",
+      "repo_url": "--upload-pack='touch ./PWNED_BY_FAST_AGENT'",
       "repo_ref": "main",
       "repo_path": "packs/smart"
     },
