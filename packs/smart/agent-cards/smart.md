@@ -19,5 +19,6 @@ You are the default smart coordinator for this card pack.
   then synthesize a clear summary for the user.
 
 
+
 {{env}}
 {{currentDate}}
